@@ -7,18 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C06AAFE28421D7400C58374 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06AAFD28421D7400C58374 /* EditProfileView.swift */; };
 		9C12B8EB283CC0F50086580F /* Minesweeper_iOS_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C12B8EA283CC0F50086580F /* Minesweeper_iOS_GameApp.swift */; };
 		9C12B8ED283CC0F50086580F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C12B8EC283CC0F50086580F /* ContentView.swift */; };
 		9C12B8EF283CC0F70086580F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C12B8EE283CC0F70086580F /* Assets.xcassets */; };
 		9C12B8F2283CC0F70086580F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C12B8F1283CC0F70086580F /* Preview Assets.xcassets */; };
+		9C12B8FA283CC48D0086580F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9C12B8F9283CC48D0086580F /* FirebaseAuth */; };
+		9C12B8FC283CC48D0086580F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9C12B8FB283CC48D0086580F /* FirebaseFirestoreSwift */; };
+		9C12B8FE283CC48D0086580F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9C12B8FD283CC48D0086580F /* FirebaseStorage */; };
+		9C12B900283CC7730086580F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C12B8FF283CC7730086580F /* GoogleService-Info.plist */; };
+		9C12B902283CE5140086580F /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C12B901283CE5140086580F /* LogInView.swift */; };
+		9C270130284633CF004BA379 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27012F284633CF004BA379 /* SettingView.swift */; };
+		9C27013228469C86004BA379 /* SettingSecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27013128469C86004BA379 /* SettingSecurityView.swift */; };
+		9C27013428469E86004BA379 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27013328469E86004BA379 /* ChangePasswordView.swift */; };
+		9C27013728471896004BA379 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27013628471896004BA379 /* AboutView.swift */; };
+		9C27013928471A06004BA379 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27013828471A06004BA379 /* BrowserView.swift */; };
+		9C27013B28471A37004BA379 /* SourceCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27013A28471A37004BA379 /* SourceCodeView.swift */; };
+		9C27013D28472196004BA379 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27013C28472196004BA379 /* Color+Extension.swift */; };
+		9C3145122841FE060023BDB4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3145112841FE060023BDB4 /* User.swift */; };
+		9C3145152841FF500023BDB4 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3145142841FF500023BDB4 /* UserViewModel.swift */; };
+		9C3A69592844FC9600C94AA2 /* SignUpWithEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A69582844FC9600C94AA2 /* SignUpWithEmailView.swift */; };
+		9C43872D28437326008CD946 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43872C28437326008CD946 /* View+Extension.swift */; };
+		9C43872F28437410008CD946 /* StorageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43872E28437410008CD946 /* StorageViewModel.swift */; };
+		9C4EA55128424291009C0CEB /* ChangeAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EA55028424291009C0CEB /* ChangeAvatarView.swift */; };
+		9C7518392844EC9800CB681B /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7518382844EC9800CB681B /* AuthViewModel.swift */; };
+		9CC3E17F2841424F00DF7644 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3E17E2841424F00DF7644 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C06AAFD28421D7400C58374 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		9C12B8E7283CC0F50086580F /* Minesweeper-iOS-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minesweeper-iOS-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C12B8EA283CC0F50086580F /* Minesweeper_iOS_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minesweeper_iOS_GameApp.swift; sourceTree = "<group>"; };
 		9C12B8EC283CC0F50086580F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C12B8EE283CC0F70086580F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C12B8F1283CC0F70086580F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C12B8FF283CC7730086580F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9C12B901283CE5140086580F /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		9C27012F284633CF004BA379 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		9C27013128469C86004BA379 /* SettingSecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSecurityView.swift; sourceTree = "<group>"; };
+		9C27013328469E86004BA379 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		9C27013628471896004BA379 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		9C27013828471A06004BA379 /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		9C27013A28471A37004BA379 /* SourceCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeView.swift; sourceTree = "<group>"; };
+		9C27013C28472196004BA379 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		9C3145112841FE060023BDB4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9C3145142841FF500023BDB4 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		9C3A69582844FC9600C94AA2 /* SignUpWithEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWithEmailView.swift; sourceTree = "<group>"; };
+		9C43872C28437326008CD946 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		9C43872E28437410008CD946 /* StorageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageViewModel.swift; sourceTree = "<group>"; };
+		9C4EA55028424291009C0CEB /* ChangeAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAvatarView.swift; sourceTree = "<group>"; };
+		9C7518382844EC9800CB681B /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		9CC3E17E2841424F00DF7644 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C12B8FA283CC48D0086580F /* FirebaseAuth in Frameworks */,
+				9C12B8FC283CC48D0086580F /* FirebaseFirestoreSwift in Frameworks */,
+				9C12B8FE283CC48D0086580F /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +79,7 @@
 			children = (
 				9C12B8E9283CC0F50086580F /* Minesweeper-iOS-Game */,
 				9C12B8E8283CC0F50086580F /* Products */,
+				9C438730284374B3008CD946 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +94,13 @@
 		9C12B8E9283CC0F50086580F /* Minesweeper-iOS-Game */ = {
 			isa = PBXGroup;
 			children = (
+				9C12B8FF283CC7730086580F /* GoogleService-Info.plist */,
 				9C12B8EA283CC0F50086580F /* Minesweeper_iOS_GameApp.swift */,
-				9C12B8EC283CC0F50086580F /* ContentView.swift */,
+				9C43872C28437326008CD946 /* View+Extension.swift */,
+				9C27013C28472196004BA379 /* Color+Extension.swift */,
+				9C31450F2841FDDB0023BDB4 /* Models */,
+				9C3145102841FDEA0023BDB4 /* Views */,
+				9C3145132841FEB10023BDB4 /* View Models */,
 				9C12B8EE283CC0F70086580F /* Assets.xcassets */,
 				9C12B8F0283CC0F70086580F /* Preview Content */,
 			);
@@ -65,6 +113,74 @@
 				9C12B8F1283CC0F70086580F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C27012E284611B8004BA379 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3E17E2841424F00DF7644 /* ProfileView.swift */,
+				9C06AAFD28421D7400C58374 /* EditProfileView.swift */,
+				9C4EA55028424291009C0CEB /* ChangeAvatarView.swift */,
+				9C27013528469EE3004BA379 /* Settings */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9C27013528469EE3004BA379 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9C27012F284633CF004BA379 /* SettingView.swift */,
+				9C27013128469C86004BA379 /* SettingSecurityView.swift */,
+				9C27013328469E86004BA379 /* ChangePasswordView.swift */,
+				9C27013628471896004BA379 /* AboutView.swift */,
+				9C27013A28471A37004BA379 /* SourceCodeView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9C31450F2841FDDB0023BDB4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C3145112841FE060023BDB4 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C3145102841FDEA0023BDB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C12B8EC283CC0F50086580F /* ContentView.swift */,
+				9C27013828471A06004BA379 /* BrowserView.swift */,
+				9CB50C1F2844F8FF00C22D0B /* Log In */,
+				9C27012E284611B8004BA379 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C3145132841FEB10023BDB4 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C7518382844EC9800CB681B /* AuthViewModel.swift */,
+				9C3145142841FF500023BDB4 /* UserViewModel.swift */,
+				9C43872E28437410008CD946 /* StorageViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		9C438730284374B3008CD946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CB50C1F2844F8FF00C22D0B /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				9C12B901283CE5140086580F /* LogInView.swift */,
+				9C3A69582844FC9600C94AA2 /* SignUpWithEmailView.swift */,
+			);
+			path = "Log In";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +199,11 @@
 			dependencies = (
 			);
 			name = "Minesweeper-iOS-Game";
+			packageProductDependencies = (
+				9C12B8F9283CC48D0086580F /* FirebaseAuth */,
+				9C12B8FB283CC48D0086580F /* FirebaseFirestoreSwift */,
+				9C12B8FD283CC48D0086580F /* FirebaseStorage */,
+			);
 			productName = "Minesweeper-iOS-Game";
 			productReference = 9C12B8E7283CC0F50086580F /* Minesweeper-iOS-Game.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +232,9 @@
 				Base,
 			);
 			mainGroup = 9C12B8DE283CC0F50086580F;
+			packageReferences = (
+				9C12B8F8283CC48D0086580F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9C12B8E8283CC0F50086580F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +251,7 @@
 			files = (
 				9C12B8F2283CC0F70086580F /* Preview Assets.xcassets in Resources */,
 				9C12B8EF283CC0F70086580F /* Assets.xcassets in Resources */,
+				9C12B900283CC7730086580F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +262,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C27013728471896004BA379 /* AboutView.swift in Sources */,
+				9C06AAFE28421D7400C58374 /* EditProfileView.swift in Sources */,
+				9C27013228469C86004BA379 /* SettingSecurityView.swift in Sources */,
+				9C12B902283CE5140086580F /* LogInView.swift in Sources */,
+				9C3145152841FF500023BDB4 /* UserViewModel.swift in Sources */,
 				9C12B8ED283CC0F50086580F /* ContentView.swift in Sources */,
+				9C4EA55128424291009C0CEB /* ChangeAvatarView.swift in Sources */,
+				9C3A69592844FC9600C94AA2 /* SignUpWithEmailView.swift in Sources */,
+				9C27013428469E86004BA379 /* ChangePasswordView.swift in Sources */,
+				9C27013D28472196004BA379 /* Color+Extension.swift in Sources */,
+				9C3145122841FE060023BDB4 /* User.swift in Sources */,
 				9C12B8EB283CC0F50086580F /* Minesweeper_iOS_GameApp.swift in Sources */,
+				9C270130284633CF004BA379 /* SettingView.swift in Sources */,
+				9C27013928471A06004BA379 /* BrowserView.swift in Sources */,
+				9C7518392844EC9800CB681B /* AuthViewModel.swift in Sources */,
+				9C27013B28471A37004BA379 /* SourceCodeView.swift in Sources */,
+				9C43872D28437326008CD946 /* View+Extension.swift in Sources */,
+				9CC3E17F2841424F00DF7644 /* ProfileView.swift in Sources */,
+				9C43872F28437410008CD946 /* StorageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +481,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C12B8F8283CC48D0086580F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C12B8F9283CC48D0086580F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C12B8F8283CC48D0086580F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9C12B8FB283CC48D0086580F /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C12B8F8283CC48D0086580F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		9C12B8FD283CC48D0086580F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C12B8F8283CC48D0086580F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9C12B8DF283CC0F50086580F /* Project object */;
 }
