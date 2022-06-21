@@ -40,6 +40,18 @@ struct SettingView: View {
                 Divider()
                 
                 NavigationLink {
+                    SettingGameView()
+                } label: {
+                    HStack {
+                        Label("Game", systemImage: "gamecontroller")
+                        Spacer()
+                        Text(Image(systemName: "chevron.forward"))
+                    }
+                }
+                .font(.title3)
+                .padding(.vertical)
+                
+                NavigationLink {
                     SettingSecurityView(authViewModel: authViewModel)
                 } label: {
                     HStack {

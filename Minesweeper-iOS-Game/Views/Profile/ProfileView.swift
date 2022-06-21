@@ -33,7 +33,7 @@ struct ProfileView: View {
                 }
                 .padding(.bottom).padding(.horizontal)
                 .foregroundColor(.white)
-                .background(Color.accentColor)
+                .background(Color(red: 74/255, green: 117/255, blue: 44/255))
                 .padding(.bottom)
                 
                 VStack(alignment: .leading, spacing: 10) {
@@ -72,7 +72,7 @@ struct ProfileView: View {
                             userViewModel.user.winTime + userViewModel.user.loseTime == 0
                             ? Text("0")
                                 .font(.title2.bold())
-                            : Text("\(userViewModel.user.winTime/(userViewModel.user.winTime + userViewModel.user.loseTime)*100, specifier: "%.2f")")
+                            : Text("\(Double(userViewModel.user.winTime)/Double((userViewModel.user.winTime + userViewModel.user.loseTime))*100, specifier: "%.2f")")
                                 .font(.title2.bold())
                             Text("Win %")
                                 .font(.title3)
@@ -87,18 +87,13 @@ struct ProfileView: View {
                     } label: {
                         ZStack {
                             RoundedRectangle(cornerRadius: 5)
-                                .stroke(Color.accentColor, lineWidth: 1)
+                                .stroke(Color(red: 74/255, green: 117/255, blue: 44/255), lineWidth: 1)
                                 .frame(width: nil, height: 40)
                             
-                            HStack {
-                                Spacer()
-                                
-                                Text("Edit profile")
-                                    .foregroundColor(Color.accentColor)
-                                    .bold()
-                                
-                                Spacer()
-                            }
+                            Text("Edit profile")
+                                .foregroundColor(Color(red: 74/255, green: 117/255, blue: 44/255))
+                                .bold()
+                                .frame(width: nil)
                         }
                         .padding(.vertical)
                     }
@@ -196,11 +191,6 @@ struct ProfileView: View {
             .background(Color(red: 190/255, green: 225/255, blue: 125/255))
             .fullScreenCover(isPresented: $isEditProfile) {
                 EditProfileView(authViewModel: authViewModel, userViewModel: userViewModel, storageViewModel: storageViewModel, isEditProfile: $isEditProfile)
-            }
-        }
-        .onAppear {
-            if userViewModel.user.name == "Loading..." {
-                userViewModel.listenToUserDataChange(id: authViewModel.getId())
             }
         }
     }

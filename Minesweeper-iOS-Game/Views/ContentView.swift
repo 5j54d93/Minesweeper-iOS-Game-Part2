@@ -20,10 +20,21 @@ struct ContentView: View {
                     Color(red: 190/255, green: 225/255, blue: 125/255)
                         .ignoresSafeArea()
                     
-                    
+                    JoinGameView(authViewModel: authViewModel, userViewModel: userViewModel)
                 }
                 .tabItem {
                     Image(systemName: "gamecontroller")
+                        .renderingMode(.template)
+                }
+                
+                ZStack {
+                    Color(red: 190/255, green: 225/255, blue: 125/255)
+                        .ignoresSafeArea()
+                    
+                    LeaderBoardView(userViewModel: userViewModel)
+                }
+                .tabItem {
+                    Image(systemName: "chart.bar.fill")
                         .renderingMode(.template)
                 }
                 
@@ -36,6 +47,12 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "person.crop.circle")
                         .renderingMode(.template)
+                }
+            }
+            .accentColor(Color(red: 74/255, green: 117/255, blue: 44/255))
+            .onAppear {
+                if userViewModel.user.name == "Loading..." {
+                    userViewModel.listenToUserDataChange(id: authViewModel.getId())
                 }
             }
         } else {

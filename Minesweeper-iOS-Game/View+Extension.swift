@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 extension View {
     func snapshot() -> UIImage {
@@ -27,3 +28,16 @@ extension View {
     }
 }
 
+extension UIViewController {
+    static func getLastPresentedViewController() -> UIViewController? {
+        let scene = UIApplication.shared.connectedScenes
+            .filter { $0.activationState == .foregroundActive }
+            .first { $0 is UIWindowScene } as? UIWindowScene
+        let window = scene?.windows.first { $0.isKeyWindow }
+        var presentedViewController = window?.rootViewController
+        while presentedViewController?.presentedViewController != nil {
+            presentedViewController = presentedViewController?.presentedViewController
+        }
+        return presentedViewController
+    }
+}

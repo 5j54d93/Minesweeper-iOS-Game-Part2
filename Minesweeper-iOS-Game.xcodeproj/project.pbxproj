@@ -17,6 +17,8 @@
 		9C12B8FE283CC48D0086580F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9C12B8FD283CC48D0086580F /* FirebaseStorage */; };
 		9C12B900283CC7730086580F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C12B8FF283CC7730086580F /* GoogleService-Info.plist */; };
 		9C12B902283CE5140086580F /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C12B901283CE5140086580F /* LogInView.swift */; };
+		9C17459F2857A7B100E48EDE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17459E2857A7B100E48EDE /* GameView.swift */; };
+		9C1745A22858742700E48EDE /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1745A12858742700E48EDE /* LeaderBoardView.swift */; };
 		9C270130284633CF004BA379 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27012F284633CF004BA379 /* SettingView.swift */; };
 		9C27013228469C86004BA379 /* SettingSecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27013128469C86004BA379 /* SettingSecurityView.swift */; };
 		9C27013428469E86004BA379 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27013328469E86004BA379 /* ChangePasswordView.swift */; };
@@ -24,6 +26,12 @@
 		9C27013928471A06004BA379 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27013828471A06004BA379 /* BrowserView.swift */; };
 		9C27013B28471A37004BA379 /* SourceCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27013A28471A37004BA379 /* SourceCodeView.swift */; };
 		9C27013D28472196004BA379 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27013C28472196004BA379 /* Color+Extension.swift */; };
+		9C29C7E82861A37300F74515 /* Wishful Thinking - Dan Lebowitz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C29C7E72861A37300F74515 /* Wishful Thinking - Dan Lebowitz.mp3 */; };
+		9C29C7EA2861A39600F74515 /* AVPlayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29C7E92861A39600F74515 /* AVPlayer+Extensions.swift */; };
+		9C29C7EC2861A58000F74515 /* SettingGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29C7EB2861A57F00F74515 /* SettingGameView.swift */; };
+		9C2A67F12861ACC1000D771B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A67EF2861ACC1000D771B /* Localizable.strings */; };
+		9C2A67F32861AE41000D771B /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9C2A67F22861AE41000D771B /* FirebaseAnalyticsSwift */; };
+		9C2A67F72861AF35000D771B /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 9C2A67F62861AF35000D771B /* GoogleMobileAds */; };
 		9C3145122841FE060023BDB4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3145112841FE060023BDB4 /* User.swift */; };
 		9C3145152841FF500023BDB4 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3145142841FF500023BDB4 /* UserViewModel.swift */; };
 		9C3A69592844FC9600C94AA2 /* SignUpWithEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A69582844FC9600C94AA2 /* SignUpWithEmailView.swift */; };
@@ -31,6 +39,9 @@
 		9C43872F28437410008CD946 /* StorageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43872E28437410008CD946 /* StorageViewModel.swift */; };
 		9C4EA55128424291009C0CEB /* ChangeAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EA55028424291009C0CEB /* ChangeAvatarView.swift */; };
 		9C7518392844EC9800CB681B /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7518382844EC9800CB681B /* AuthViewModel.swift */; };
+		9C8457F8285652E6007576E7 /* JoinGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8457F7285652E6007576E7 /* JoinGameView.swift */; };
+		9C8457FA28565714007576E7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8457F928565714007576E7 /* Game.swift */; };
+		9C8457FC285658A3007576E7 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8457FB285658A3007576E7 /* GameViewModel.swift */; };
 		9CC3E17F2841424F00DF7644 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3E17E2841424F00DF7644 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +54,8 @@
 		9C12B8F1283CC0F70086580F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C12B8FF283CC7730086580F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9C12B901283CE5140086580F /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		9C17459E2857A7B100E48EDE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		9C1745A12858742700E48EDE /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
 		9C27012F284633CF004BA379 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		9C27013128469C86004BA379 /* SettingSecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSecurityView.swift; sourceTree = "<group>"; };
 		9C27013328469E86004BA379 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
@@ -50,6 +63,12 @@
 		9C27013828471A06004BA379 /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
 		9C27013A28471A37004BA379 /* SourceCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeView.swift; sourceTree = "<group>"; };
 		9C27013C28472196004BA379 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		9C29C7E72861A37300F74515 /* Wishful Thinking - Dan Lebowitz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wishful Thinking - Dan Lebowitz.mp3"; sourceTree = "<group>"; };
+		9C29C7E92861A39600F74515 /* AVPlayer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Extensions.swift"; sourceTree = "<group>"; };
+		9C29C7EB2861A57F00F74515 /* SettingGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingGameView.swift; sourceTree = "<group>"; };
+		9C2A67F02861ACC1000D771B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9C2A67F42861AEE1000D771B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9C2A67F82861B918000D771B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9C3145112841FE060023BDB4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9C3145142841FF500023BDB4 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		9C3A69582844FC9600C94AA2 /* SignUpWithEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWithEmailView.swift; sourceTree = "<group>"; };
@@ -57,6 +76,9 @@
 		9C43872E28437410008CD946 /* StorageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageViewModel.swift; sourceTree = "<group>"; };
 		9C4EA55028424291009C0CEB /* ChangeAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAvatarView.swift; sourceTree = "<group>"; };
 		9C7518382844EC9800CB681B /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		9C8457F7285652E6007576E7 /* JoinGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinGameView.swift; sourceTree = "<group>"; };
+		9C8457F928565714007576E7 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		9C8457FB285658A3007576E7 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		9CC3E17E2841424F00DF7644 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +87,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C2A67F32861AE41000D771B /* FirebaseAnalyticsSwift in Frameworks */,
 				9C12B8FA283CC48D0086580F /* FirebaseAuth in Frameworks */,
+				9C2A67F72861AF35000D771B /* GoogleMobileAds in Frameworks */,
 				9C12B8FC283CC48D0086580F /* FirebaseFirestoreSwift in Frameworks */,
 				9C12B8FE283CC48D0086580F /* FirebaseStorage in Frameworks */,
 			);
@@ -94,9 +118,13 @@
 		9C12B8E9283CC0F50086580F /* Minesweeper-iOS-Game */ = {
 			isa = PBXGroup;
 			children = (
+				9C2A67F42861AEE1000D771B /* Info.plist */,
+				9C2A67EF2861ACC1000D771B /* Localizable.strings */,
+				9C29C7E72861A37300F74515 /* Wishful Thinking - Dan Lebowitz.mp3 */,
 				9C12B8FF283CC7730086580F /* GoogleService-Info.plist */,
 				9C12B8EA283CC0F50086580F /* Minesweeper_iOS_GameApp.swift */,
 				9C43872C28437326008CD946 /* View+Extension.swift */,
+				9C29C7E92861A39600F74515 /* AVPlayer+Extensions.swift */,
 				9C27013C28472196004BA379 /* Color+Extension.swift */,
 				9C31450F2841FDDB0023BDB4 /* Models */,
 				9C3145102841FDEA0023BDB4 /* Views */,
@@ -115,6 +143,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9C1745A02858741000E48EDE /* Leader Board */ = {
+			isa = PBXGroup;
+			children = (
+				9C1745A12858742700E48EDE /* LeaderBoardView.swift */,
+			);
+			path = "Leader Board";
+			sourceTree = "<group>";
+		};
 		9C27012E284611B8004BA379 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				9C27012F284633CF004BA379 /* SettingView.swift */,
+				9C29C7EB2861A57F00F74515 /* SettingGameView.swift */,
 				9C27013128469C86004BA379 /* SettingSecurityView.swift */,
 				9C27013328469E86004BA379 /* ChangePasswordView.swift */,
 				9C27013628471896004BA379 /* AboutView.swift */,
@@ -142,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				9C3145112841FE060023BDB4 /* User.swift */,
+				9C8457F928565714007576E7 /* Game.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +190,8 @@
 				9C12B8EC283CC0F50086580F /* ContentView.swift */,
 				9C27013828471A06004BA379 /* BrowserView.swift */,
 				9CB50C1F2844F8FF00C22D0B /* Log In */,
+				9C8457F6285652C6007576E7 /* Game */,
+				9C1745A02858741000E48EDE /* Leader Board */,
 				9C27012E284611B8004BA379 /* Profile */,
 			);
 			path = Views;
@@ -162,6 +202,7 @@
 			children = (
 				9C7518382844EC9800CB681B /* AuthViewModel.swift */,
 				9C3145142841FF500023BDB4 /* UserViewModel.swift */,
+				9C8457FB285658A3007576E7 /* GameViewModel.swift */,
 				9C43872E28437410008CD946 /* StorageViewModel.swift */,
 			);
 			path = "View Models";
@@ -172,6 +213,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C8457F6285652C6007576E7 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				9C8457F7285652E6007576E7 /* JoinGameView.swift */,
+				9C17459E2857A7B100E48EDE /* GameView.swift */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 		9CB50C1F2844F8FF00C22D0B /* Log In */ = {
@@ -203,6 +253,8 @@
 				9C12B8F9283CC48D0086580F /* FirebaseAuth */,
 				9C12B8FB283CC48D0086580F /* FirebaseFirestoreSwift */,
 				9C12B8FD283CC48D0086580F /* FirebaseStorage */,
+				9C2A67F22861AE41000D771B /* FirebaseAnalyticsSwift */,
+				9C2A67F62861AF35000D771B /* GoogleMobileAds */,
 			);
 			productName = "Minesweeper-iOS-Game";
 			productReference = 9C12B8E7283CC0F50086580F /* Minesweeper-iOS-Game.app */;
@@ -230,10 +282,12 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 9C12B8DE283CC0F50086580F;
 			packageReferences = (
 				9C12B8F8283CC48D0086580F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				9C2A67F52861AF35000D771B /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 			);
 			productRefGroup = 9C12B8E8283CC0F50086580F /* Products */;
 			projectDirPath = "";
@@ -249,9 +303,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C2A67F12861ACC1000D771B /* Localizable.strings in Resources */,
 				9C12B8F2283CC0F70086580F /* Preview Assets.xcassets in Resources */,
 				9C12B8EF283CC0F70086580F /* Assets.xcassets in Resources */,
 				9C12B900283CC7730086580F /* GoogleService-Info.plist in Resources */,
+				9C29C7E82861A37300F74515 /* Wishful Thinking - Dan Lebowitz.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +328,18 @@
 				9C3A69592844FC9600C94AA2 /* SignUpWithEmailView.swift in Sources */,
 				9C27013428469E86004BA379 /* ChangePasswordView.swift in Sources */,
 				9C27013D28472196004BA379 /* Color+Extension.swift in Sources */,
+				9C8457F8285652E6007576E7 /* JoinGameView.swift in Sources */,
 				9C3145122841FE060023BDB4 /* User.swift in Sources */,
+				9C17459F2857A7B100E48EDE /* GameView.swift in Sources */,
 				9C12B8EB283CC0F50086580F /* Minesweeper_iOS_GameApp.swift in Sources */,
 				9C270130284633CF004BA379 /* SettingView.swift in Sources */,
+				9C8457FC285658A3007576E7 /* GameViewModel.swift in Sources */,
+				9C1745A22858742700E48EDE /* LeaderBoardView.swift in Sources */,
 				9C27013928471A06004BA379 /* BrowserView.swift in Sources */,
 				9C7518392844EC9800CB681B /* AuthViewModel.swift in Sources */,
+				9C29C7EA2861A39600F74515 /* AVPlayer+Extensions.swift in Sources */,
+				9C8457FA28565714007576E7 /* Game.swift in Sources */,
+				9C29C7EC2861A58000F74515 /* SettingGameView.swift in Sources */,
 				9C27013B28471A37004BA379 /* SourceCodeView.swift in Sources */,
 				9C43872D28437326008CD946 /* View+Extension.swift in Sources */,
 				9CC3E17F2841424F00DF7644 /* ProfileView.swift in Sources */,
@@ -285,6 +348,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C2A67EF2861ACC1000D771B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C2A67F02861ACC1000D771B /* zh-Hant */,
+				9C2A67F82861B918000D771B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9C12B8F3283CC0F70086580F /* Debug */ = {
@@ -412,6 +487,7 @@
 				DEVELOPMENT_TEAM = 24SCJHS57L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Minesweeper-iOS-Game/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -441,6 +517,7 @@
 				DEVELOPMENT_TEAM = 24SCJHS57L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Minesweeper-iOS-Game/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,6 +568,14 @@
 				minimumVersion = 9.0.0;
 			};
 		};
+		9C2A67F52861AF35000D771B /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -508,6 +593,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9C12B8F8283CC48D0086580F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		9C2A67F22861AE41000D771B /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C12B8F8283CC48D0086580F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		9C2A67F62861AF35000D771B /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C2A67F52861AF35000D771B /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

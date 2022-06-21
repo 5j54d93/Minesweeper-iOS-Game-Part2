@@ -26,7 +26,7 @@ struct LogInView: View {
                 .font(.largeTitle.bold())
                 .frame(maxWidth: .infinity)
                 .padding(.bottom)
-                .background(Color.accentColor)
+                .background(Color(red: 74/255, green: 117/255, blue: 44/255))
             
             if signUpWithEmail {
                 HStack {
@@ -94,7 +94,7 @@ struct LogInView: View {
                                 .frame(maxWidth: .infinity)
                                 .background(
                                     !email.isEmpty && !password.isEmpty
-                                    ? Color.accentColor
+                                    ? Color(red: 74/255, green: 117/255, blue: 44/255)
                                     : Color(red: 162/255, green: 209/255, blue: 72/255)
                                 )
                                 .cornerRadius(5)
@@ -115,7 +115,7 @@ struct LogInView: View {
                             .font(.title2.bold())
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
-                            .background(Color.accentColor)
+                            .background(Color(red: 74/255, green: 117/255, blue: 44/255))
                             .cornerRadius(5)
                     }
                 } else {

@@ -68,7 +68,7 @@ struct ChangePasswordView: View {
                         .frame(maxWidth: .infinity)
                         .background(
                             !newPassword.isEmpty && !newPasswordAgain.isEmpty
-                            ? Color.accentColor
+                            ? Color(red: 74/255, green: 117/255, blue: 44/255)
                             : Color(red: 162/255, green: 209/255, blue: 72/255)
                         )
                         .cornerRadius(5)

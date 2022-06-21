@@ -7,12 +7,21 @@
 
 import SwiftUI
 import FirebaseCore
+import AVFoundation
+import GoogleMobileAds
 
 @main
 struct Minesweeper_iOS_GameApp: App {
     
+    @AppStorage("isBackgroundMusicOn") var isBackgroundMusicOn = true
+    
     init() {
         FirebaseApp.configure()
+        GADMobileAds.sharedInstance().start()
+        AVPlayer.setupBgMusic()
+        if isBackgroundMusicOn {
+            AVPlayer.bgQueuePlayer.play()
+        }
     }
     
     var body: some Scene {
